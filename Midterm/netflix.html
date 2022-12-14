@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    
+    <style>
+        @media (max-width:400px){
+
+        }
+        @media (max-width:800px){
+            
+        }
+           
+        body{
+            background: 
+		linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.6)),
+        url(fon.jpg);
+        /* background-image: url(fon.jpg); */
+        background-repeat: no-repeat;
+        background-size: cover; 
+        margin:0 auto;  
+        height: 100vh; 
+        /* filter:brightness(20%) ;  */
+        }
+
+        .start{
+            display: flex;
+            align-items: center;
+            display: grid;
+            grid-auto-flow: column;
+            grid-column-gap: 70% ;
+            position: fixed;
+            top: 0px; right: 68px; left: 41px;
+            width: auto; height: 70px;
+        }
+
+        .ts{
+            display: grid;
+            grid-auto-flow:column;
+            grid-column-gap: 12%;
+        }
+
+        .text{
+            display: flex;
+            justify-content: center;
+            font-family:"Trirong", serif;
+            color: white; 
+            text-align: center;
+            line-height: 3em;
+            position: absolute; 
+            top: 35%;
+            left: 25%;
+        }
+
+        .poisk{
+            position: absolute; 
+            top: 56%;
+            left: 33%;
+            
+        }
+        
+
+        
+    </style>
+    </head>
+
+<body>
+    
+    <div class="start">
+        <img class="logo" src="logo.jpg" alt="photo" width="210px" height="130px">
+           <div class="ts">
+             <img class="translate" src="translate.jpg" alt="photo" width="125px" height="42px"> 
+             <a href="https://www.netflix.com/kz/login"><img class="signIn" src="signIn.jpg" alt="photo" width="100px" height="40px"> </a>
+        </div>
+    </div>
+
+    <div class="text">
+        <h1 style="font-size: 50px; line-height: 1em;">Unlimited movies, TV shows, and more.<br> 
+            <span style="font-size: 30px;line-height: 1em;">Watch anywhere. Cancel anytime.</span> <br> 
+                 <span style="font-size: 20px; font-family: Trirong, serif;">Ready to watch? Enter your email to create or restart your membership.</span> </h1> 
+    </div>
+
+    <a href="https://www.netflix.com/signup/registration?locale=en-KZ"><img class="poisk" src="poisk.jpg" alt="photo" width="600px" height="50px"></a>
+
+</body>
+</html>
+
+
