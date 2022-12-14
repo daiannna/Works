@@ -1,0 +1,211 @@
+<!DOCTYPE html> 
+<html>     
+<style> 
+
+    .h1{ 
+        color: white; 
+        display: flex;
+        justify-content: left;
+        padding-left: 3%;
+
+        /* position: absolute; 
+        top: 20px; 
+        left: 50px;  */
+    } 
+
+    .shedule{ 
+        color: white; 
+        display: flex;
+        
+        justify-content: space-around;
+
+        /* position: absolute; 
+        top: 95px; 
+        left: 610px;  */
+    } 
+    
+    .about{ 
+        color: white; 
+        background-color: rgba(131, 33, 161, 0.5);
+        text-align: center; 
+        height: 70px; 
+        width: 100vw; 
+        display: flex; 
+        justify-content: space-around; 
+        align-items: flex-end; 
+        position: absolute;
+        bottom: 4%;
+    } 
+
+    body{
+        background-image: url(IMG_0589.JPG);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        margin:0 auto;  
+        height: 98vh; 
+    }
+    
+    .column{ 
+        font-weight: bold; 
+        text-align: center; 
+      
+    }
+
+    .row{ 
+        font-size: large;
+        font-weight: bold; 
+        text-align: center; 
+        background-color:gray; 
+        color: white;
+    } 
+
+    .tdcl{
+        font-weight: bold; 
+    }
+
+    table, th, td { 
+        border: 1px solid black; 
+        border-collapse: collapse;
+   } 
+
+    th,td{ 
+        padding: 10px; 
+        padding-left: 15px; 
+        padding-right: 15px;  
+    }
+
+    table{ 
+        display:flex;
+        justify-content:center;
+        background-color: whitesmoke; 
+    }  
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer{
+        color: white; 
+        background-color: black;
+        height: 40px; 
+        width: 100vw; 
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .not{
+        color: red;
+    }
+   
+</style> 
+ <body> 
+    
+    <h1 class="h1">ABOUT US</h1> 
+    <!-- <div style = "position: absolute; top: 100px; left: 400px"> -->
+    <h1 class="shedule">MY SHEDULE</h1> 
+    <div style = "display: flex; justify-content: center;">
+    <table> 
+        <tr> 
+            <th class="row">day/time</th> 
+            <th class="row">mon</th> 
+            <th class="row">tue</th> 
+            <th class="row">wed</th> 
+            <th class="row">thu</th> 
+            <th class="row">fri</th> 
+        </tr> 
+        
+        <tr> 
+            <td class="column">и т.д</td> 
+            <td ></td> 
+            <td rowspan="3" class="tdcl">Lessons</td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+        </tr> 
+
+        <tr> 
+            <td class="column">и т.д</td> 
+            <td rowspan="2" class="tdcl">Lessons</td> 
+            <td></td> 
+            <td  class="tdcl">Lessons</td> 
+            <td></td>   
+        </tr> 
+
+        <tr> 
+            <td class="column">и т.д</td> 
+            <td></td> 
+            <td  class="tdcl">Lessons</td> 
+            <td></td> 
+        </tr> 
+
+        <tr> 
+            <td class="column">12:00</td> 
+            <td class="tdcl">Lunch</td> 
+            <td class="tdcl">Lunch</td> 
+            <td class="tdcl">Lunch</td> 
+            <td class="tdcl">Lunch</td> 
+            <td class="tdcl">Lunch</td> 
+        </tr> 
+
+        <tr> 
+            <td class="column">и т.д</td> 
+            <td rowspan="2" class="tdcl">Lessons</td> 
+            <td rowspan="4" class="tdcl">Lessons</td> 
+            <td></td> 
+            <td></td> 
+            <td rowspan="4" class="tdcl">Lessons</td> 
+        </tr> 
+
+        <tr> 
+            <td class="column">и т.д</td> 
+            <td></td> 
+            <td></td> 
+            <!-- <td rowspan="2" class="third">Lessons</td>  -->
+        </tr> 
+
+        <tr> 
+            <td class="column">и т.д</td> 
+            <td></td> 
+            <td></td> 
+        </tr> 
+
+        <tr> 
+            <td class="column">и т.д</td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+        </tr> 
+
+        <tr> 
+            <td class="column">и т.д</td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+        </tr> 
+    </table>
+    </div>
+    
+<!-- 
+    <div style="position: absolute; bottom:0; top: 95%;">  
+        <div class="about"> 
+            <a href="flagma.html"><h4>Home</h4></a>
+            <h4>About us</h4> 
+            <h4>Contacts</h4> 
+        </div> 
+    </div> -->
+
+    <div class="about"> 
+        <a href="flagma.html"><h4>Home</h4></a> 
+        <a href="about.html"><h4>About Us</h4></a>
+        <a href="bootstrapPage.html"><h4>Contacts</h4></a>
+    </div> 
+
+<div class = "footer">
+     <h5>2022 all rights <span class="not"> not</span> reserved</h5>
+</div>
+</body>
+</html>
