@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background: 
+		    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),
+            url(fon.jpg);
+            width: 100%;
+            height: 100vh; 
+        }
+
+        .start{
+            display: flex;
+            align-items: center;
+            display: grid;
+            grid-auto-flow: column;
+            grid-column-gap: 70% ;
+            width: auto; height: 70px;
+            padding: 0% 2%
+        }
+
+        .sIn{
+            color: red; 
+            font-size:160%;
+        }
+
+        .sIn:hover{
+            text-decoration: underline;
+        }
+        
+        .wh1{
+            background-image: -moz-element();
+            width: 60vh;
+            height: 70vh; 
+            margin: 10% 20% 50% 33%;
+        }
+
+        .h3{
+            color:aliceblue;
+            padding: 15% 5% 0% 15%;
+            font-size: 35px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        form{
+            font-family: 'Montserrat', sans-serif;
+            display: grid;
+            grid-auto-flow: row;
+            height: 30%; 
+            margin: 5% 10% 10% 15%;
+            border-radius: 10%;
+        }
+
+        .button{
+            width: 90%; 
+            height: 50%; 
+            background-color: rgb(0, 174, 254); 
+            color: white; 
+            font-size: 15px;
+            border-bottom: rgb(0, 174, 254);
+            border-top: rgb(0, 174, 254);
+            border-left: rgb(0, 174, 254);
+            border-right: rgb(0, 174, 254);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .Id{
+            font-size: 20px; 
+            line-height: 1.5em;
+            color:darkgray;
+            margin: 25% 15% 10% 15%;
+            font-family: 'Montserrat', serif;
+        }
+        
+        footer{
+            background-color: black;
+            font-family: 'Montserrat', sans-serif;
+            color: grey;
+            padding: 5% 15% 10% 5%;
+            display: grid;
+            grid-row-gap: 25%;
+        }
+
+        .ftr{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%  ;
+        }
+
+    </style>
+
+     <body>
+            <header>
+                <div class="start">
+                    <a href="netflix.html"><img class="logo" src="logo.jpg" alt="photo" width="210px" height="130px"></a>
+                    <a href="signIn.html"><p class="sIn">Sign In</p></a>
+                </div>
+
+
+                <div class="wh1">
+
+                    <h3 class="h3">Forgot Email/Password</h3> 
+
+                    <p class="how">How would you like to reset your password?</p>
+
+                    <label class="email">Email
+                        <input type="checkbox" checked="checked">
+                             <span class="checkmark"></span>
+                    </label>
+
+                    <label class="message">Text Message(SMS)
+                        <input type="checkbox" checked="checked">
+                             <span class="checkmark"></span>
+                    </label>
+
+
+
+                    <form>
+
+                        <p><input style="width: 90%; height: 50%; background-color: rgb(50, 49, 49); font-size: 15px; color:whitesmoke" type="text"  placeholder="Email or phone number" ></p> 
+
+                        <button class="button" type="submit">Email Me</button>  
+                        
+                    </form>
+
+                    <p class="Id"></p><a href="netflix.html">I don't remember my email or phone.</a></p>
+
+                    <p style="font-size: 15px; color:darkgray; margin: -7% 15% 10% 15%;">This page is protected by Google reCAPTCHA to ensure you're not a bot.
+                        <a href="learn.html" style="font-size: 15px; color: darkgray">Learn more.</a>
+                   </p>
+
+                </div>
+
+
+            <footer>
+                <h4>Questions? Contact us.</h4>
+
+                <div class="ftr">
+                    <span class="sFooter">
+                        <p>FAQ</p>
+                        <p>Cookie Preferences</p>
+                    </span>
+
+                    <span class="sFooter">
+                        <p>Help Center</p>
+                        <p>Corporate Information</p>
+                    </span>
+
+                    <span class="sFooter">
+                        <p>Terms of Use</p>
+                    </span>
+
+                    <span class="sFooter">
+                        <p>Privacy</p>
+                    </span>
+                </div>
+
+                <img class="translate" src="translate.jpg" alt="photo" width="125px" height="42px">
+            </footer>
+
+
+    </body>
+                 
+        
